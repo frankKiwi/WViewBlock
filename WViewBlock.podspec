@@ -8,14 +8,7 @@ Pod::Spec.new do |s|
   s.summary      = "便捷开发UIKit"
   s.homepage     = "https://github.com/frankKiwi/WViewBlock"
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
-
-
   s.author             = { "fanrenFRank" => "1778907544@qq.com" }
-
-
-  s.platform     = :ios
   s.platform     = :ios, "8.0"
 
 
@@ -26,6 +19,5 @@ Pod::Spec.new do |s|
   s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-
 
 end
