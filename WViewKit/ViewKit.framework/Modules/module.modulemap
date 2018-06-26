@@ -1,6 +1,0 @@
-framework module ViewKit {
-  umbrella header "ViewKit.h"
-
-  export *
-  module * { export * }
-}
