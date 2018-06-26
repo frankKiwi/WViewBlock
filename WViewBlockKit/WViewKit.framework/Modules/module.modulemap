@@ -1,6 +1,0 @@
-framework module WViewKit {
-  umbrella header "WViewKit.h"
-
-  export *
-  module * { export * }
-}
