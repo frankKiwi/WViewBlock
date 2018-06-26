@@ -1,0 +1,6 @@
+framework module WViewBlock {
+  umbrella header "WViewBlock.h"
+
+  export *
+  module * { export * }
+}
