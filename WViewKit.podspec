@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
 
 #   s.source_files = 'WViewKit/WViewKit.framework/Headers/*.{h}'
   s.vendored_frameworks = 'WViewKit.framework'
-  s.source_files = 'WViewKit/**/*.{h,m}'
-  s.public_header_files = 'WViewKit.framework/Headers/WViewKit.h'
+#   s.source_files = 'WViewKit/**/*.{h,m}'
+#   s.public_header_files = 'WViewKit.framework/Headers/WViewKit.h'
 
   s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
