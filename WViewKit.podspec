@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/frankKiwi/WViewBlock.git", :tag => "0.0.1" }
 
 #   s.source_files = 'WViewKit/WViewKit.framework/Headers/*.{h}'
-  s.vendored_frameworks = 'WViewKit.framework'
+  s.vendored_frameworks = 'WViewBlockGit/WViewKit/WViewKit.framework'
 #   s.source_files = 'WViewKit/**/*.{h,m}'
 #   s.public_header_files = 'WViewKit.framework/Headers/WViewKit.h'
 
