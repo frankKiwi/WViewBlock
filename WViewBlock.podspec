@@ -10,12 +10,10 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "fanrenFRank" => "1778907544@qq.com" }
   s.platform     = :ios, "8.0"
-
-
   s.source       = { :git => "https://github.com/frankKiwi/WViewBlock.git", :tag => "0.0.1" }
-  s.ios.source_files = 'WViewBlockKit/WViewBlock.framework/Headers/*.{h}'
-  s.ios.vendored_frameworks = 'WViewBlockKit/WViewBlock.framework'
-  s.ios.public_header_files = 'WViewBlockKit/WViewBlock.framework/Headers/WViewBlock.h'
+  s.source_files = 'WViewBlockKit/WViewBlock.framework/Headers/*.{h}'
+  s.vendored_frameworks = 'WViewBlockKit/WViewBlock.framework'
+  s.public_header_files = 'WViewBlockKit/WViewBlock.framework/Headers/WViewBlock.h'
   s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
