@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
 
 
   s.source       = { :git => "https://github.com/frankKiwi/WViewBlock.git", :tag => "0.0.1" }
-  s.source_files = 'WViewBlock/WViewBlock.framework/Headers/*.{h}'
-  s.vendored_frameworks = 'WViewBlock/WViewBlock.framework'
-  s.public_header_files = 'WViewBlock/WViewBlock.framework/Headers/WViewBlock.h'
+  s.source_files = 'WViewBlockKit/WViewBlock.framework/Headers/*.{h}'
+  s.vendored_frameworks = 'WViewBlockKit/WViewBlock.framework'
+  s.public_header_files = 'WViewBlockKit/WViewBlock.framework/Headers/WViewBlock.h'
   s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
