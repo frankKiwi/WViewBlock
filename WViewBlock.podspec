@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
 
 
-  s.source       = { :git => "https://github.com/frankKiwi/WViewBlock.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/frankKiwi/WViewBlock.git", :tag => "0.0.1" }
   s.source_files = 'WViewBlock/WViewBlock.framework/Headers/*.{h}'
   s.vendored_frameworks = 'WViewBlock/WViewBlock.framework'
   s.public_header_files = 'WViewBlock/WViewBlock.framework/Headers/WViewBlock.h'
