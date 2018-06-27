@@ -9,9 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/frankKiwi/WViewBlock.git", :tag => "0.0.1" }
 
-s.source_files = 'WViewKit/WViewKit.framework/Headers/*.{h}'
-s.vendored_frameworks = 'WViewKit/WViewKit.framework'
-s.public_header_files = 'WViewKit/WViewKit.framework/Headers/WViewKit.h'
+s.source_files = 'WViewKit/*.{h,m}'
 
   s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
