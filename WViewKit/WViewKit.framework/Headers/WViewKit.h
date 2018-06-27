@@ -7,18 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIButton+Kiwi.h"
-#import "UICollectionView+SetIPhoneX.h"
-#import "UIImageView+Kiwi.h"
-#import "UILabel+Kiwi.h"
-#import "UITabBar+Kiwi.h"
-#import "UIView+Kiwi.h"
-#import "UITableView+Header.h"
-#import "UITextField+Kiwi.h"
-#import "UITextView+TextLengthOrPlaceholder.h"
-#import "LEEAlertHelper.h"
-#import "TableViewAnimationKitHeaders.h"
-#import "TableViewAnimationKit.h"
-#import "UITableView+XSAnimationKit.h"
-#import "TableViewAnimationKitConfig.h"
+
+#import<WViewKit/UIButton+Kiwi.h>
+#import<WViewKit/UICollectionView+SetIPhoneX.h>
+#import<WViewKit/UILabel+Kiwi.h>
+#import<WViewKit/UITabBar+Kiwi.h>
+#import<WViewKit/UIView+Kiwi.h>
+#import<WViewKit/UITableView+Header.h>
+#import<WViewKit/UITextField+Kiwi.h>
+#import<WViewKit/UITextView+TextLengthOrPlaceholder.h>
+#import<WViewKit/LEEAlertHelper.h>
+#import<WViewKit/TableViewAnimationKitHeaders.h>
+#import<WViewKit/TableViewAnimationKitConfig.h>
+#import<WViewKit/TableViewAnimationKit.h>
+#import<WViewKit/UITableView+XSAnimationKit.h>
+
+
 

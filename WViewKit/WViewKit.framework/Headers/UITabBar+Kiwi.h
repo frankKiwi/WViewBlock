@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^CallBack) (UITabBar *wBarItem);
+typedef void(^TabCallBack) (UITabBar *wBarItem);
 
 @interface UITabBar (Kiwi)
 
@@ -18,6 +18,6 @@ typedef void(^CallBack) (UITabBar *wBarItem);
  
  */
 
-- (void)addCallBack:(CallBack)block;
+- (void)addCallBack:(TabCallBack)block;
 
 @end

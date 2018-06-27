@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^CallBack) (UILabel *wLabel);
+typedef void(^LbCallBack) (UILabel *wLabel);
 
 @interface UILabel (Kiwi)
 
@@ -18,12 +18,10 @@ typedef void(^CallBack) (UILabel *wLabel);
 
  */
 
-- (void)addCallBack:(CallBack)block;
+- (void)addCallBack:(LbCallBack)block;
 
-// 提现金额设置
-- (UILabel *)WSetMutibleColorWith:(NSString *)sourceLa;
 
-// 支付金额设置
-- (UILabel *)WSetMutibleColorWithPay:(NSString *)sourceLa;
+
+
 
 @end
