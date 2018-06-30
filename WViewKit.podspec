@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "fanrenFRank" => "1778907544@qq.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/frankKiwi/WViewBlock.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/frankKiwi/WViewBlock.git", :tag => "#{s.version }
   
   #s.source_files = 'WViewKit/*.{h,m}'
   s.source_files = '**/*.{h,m}'
